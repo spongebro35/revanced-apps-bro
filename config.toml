@@ -7,36 +7,35 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [Twitter]
 enabled = false
-apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
 arch = "arm64-v8a"
 
 [Reddit]
 enabled = false
-apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 arch = "arm64-v8a"
 
 [Twitch]
 enabled = false
-apkmirror-dlurl = "https://apkmirror.com/apk/twitch-interactive-inc/twitch/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 arch = "arm64-v8a"
 
 [YouTube]
 version = "auto"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [Messenger]
 enabled = false
-apkmirror-dlurl = "https://apkmirror.com/apk/facebook-2/messenger/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 arch = "arm64-v8a"
 
 [Instagram]
-enabled = false
-apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/"
 arch = "arm64-v8a"
 
 [Music]
 enabled = false
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
 
 [tv.trakt.trakt]
@@ -64,10 +63,12 @@ exclusive-patches = true
 
 [com.google.android.apps.photos]
 version = "auto"
+arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 
 [com.adobe.lrmobile]
 version = "auto"
+arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/lightroom/"
 
 [Spotify]
@@ -77,6 +78,7 @@ uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 [IconPackStudio]
 version = "auto"
+arch = "noarch"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
 
 [pl.solidexplorer2]
@@ -85,6 +87,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/neatbytes/solid-explorer-beta/"
 
 [com.google.android.apps.recorder]
 version = "auto"
+arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/google-recorder/"
 
 [co.windyapp.android]
@@ -117,4 +120,5 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/yuka-apps/yuka-food-cosmetic-scan/"
 
 [com.awedea.nyx]
+arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/viralmedia-mlm/nyx-music-player/"
