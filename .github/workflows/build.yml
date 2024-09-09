@@ -114,7 +114,7 @@ jobs:
         run: |
           cd build || { echo "build folder not found"; exit 1; }
 
-          TG_CHAT="@rvc_magisk"
+          TG_CHAT="@rvxajax512"
           NL=$'\n'
           APKS=""
           MODULES=""
@@ -143,5 +143,5 @@ jobs:
           "
           echo "'$MSG'"
           MSG=${MSG:0:9450}
-          POST="https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
+          POST="https://api.telegram.org/bot$7198313852:AAEBIcIVMKzqlYHoG9P5SkMcwx6DKMVr3a8/sendMessage"
           curl -X POST --data-urlencode "parse_mode=Markdown" --data-urlencode "disable_web_page_preview=true" --data-urlencode "text=${MSG}" --data-urlencode "chat_id=${TG_CHAT}" "$POST"
