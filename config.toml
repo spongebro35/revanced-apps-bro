@@ -5,68 +5,97 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube]
-build-mode = "both"
-excluded-patches = ""
-included-patches = ""
-version = "auto"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube" # fallback
-
-[Music]
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-arch = "both"
-
-[Music-Extended]
-app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-arch = "both"
-
-[YouTube-Extended]
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-
 [Twitter]
-build-mode = "apk"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
+enabled = false
+apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
+arch = "arm64-v8a"
+
+[Reddit]
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+arch = "arm64-v8a"
 
 [Twitch]
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
+apkmirror-dlurl = "https://apkmirror.com/apk/twitch-interactive-inc/twitch/"
+arch = "arm64-v8a"
 
-[TikTok]
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
-included-patches = "'SIM spoof'"
-
-[Reddit-Extended]
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
+[YouTube]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
 [Messenger]
 enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
+apkmirror-dlurl = "https://apkmirror.com/apk/facebook-2/messenger/"
 arch = "arm64-v8a"
+
+[Instagram]
+apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
+arch = "arm64-v8a"
+
+[Music]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+arch = "arm64-v8a"
+
+[tv.trakt.trakt]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/trakt/trakt/"
+
+[com.soundcloud.android]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/soundcloud/soundcloud-soundcloud/"
+arch = "arm64-v8a"
+
+[com.backdrops.wallpapers]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/backdrops/backdrops-wallpapers/"
+arch = "arm64-v8a"
+
+[com.rarlab.rar]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/rarlab-published-by-win-rar-gmbh/rar/"
+arch = "arm64-v8a"
+
+[eu.faircode.netguard]
+enabled = false
+apkmirror-dlurl = "https://www.apkmirror.com/apk/marcel-bokhorst/netguard-no-root-firewall/"
+exclusive-patches = true
+
+[com.google.android.apps.photos]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+
+[com.adobe.lrmobile]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/lightroom/"
 
 [Spotify]
 enabled = false
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 [IconPackStudio]
-enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
+
+[pl.solidexplorer2]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/neatbytes/solid-explorer-beta/"
+
+[com.google.android.apps.recorder]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/google-recorder/"
+
+[co.windyapp.android]
+enabled = false
+apkmirror-dlurl = "https://www.apkmirror.com/apk/windyty-se/windy-wind-waves-and-hurricanes-forecast/"
+
+[jp.pxv.android]
+enabled = false
+apkmirror-dlurl = "https://www.apkmirror.com/apk/pixiv-inc/pixiv/"
+
+[com.zombodroid.MemeGenerator]
+enabled = false
+apkmirror-dlurl = "https://www.apkmirror.com/apk/zombodroid/meme-generator-free/"
+
+[com.facebook.katana]
+enabled = false
+apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
+arch = "arm64-v8a"
+
+[com.microblink.photomath]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photomath/"
+
+[io.yuka.android]
+enabled = false
+apkmirror-dlurl = "https://www.apkmirror.com/apk/yuka-apps/yuka-food-cosmetic-scan/"
+
+[com.awedea.nyx]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/viralmedia-mlm/nyx-music-player/"
