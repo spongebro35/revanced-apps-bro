@@ -1,6 +1,6 @@
 {
-  "version": "v8.10.52 (patches 5.46.0)",
-  "versionCode": 10,
-  "zipUrl": "https://github.com/spongebro35/revanced-apps-bro/releases/download/10/music-revanced-magisk-v8.10.52-arm-v7a.zip",
+  "version": "v8.10.52 (patches 5.47.0)",
+  "versionCode": 11,
+  "zipUrl": "https://github.com/spongebro35/revanced-apps-bro/releases/download/11/music-revanced-magisk-v8.10.52-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/spongebro35/revanced-apps-bro/update/build.md"
 }
